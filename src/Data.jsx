@@ -1,35 +1,35 @@
 // Features
-import certified from "./assets/certified.svg";
-import coffeeBeans from "./assets/coffee-beans.svg";
-import coffee from "./assets/coffee.svg";
-import freeDelivery from "./assets/free-delivery.svg";
+import certified from "./assets/images/certified.svg";
+import coffeeBeans from "./assets/images/coffee-beans.svg";
+import coffee from "./assets/images/coffee.svg";
+import freeDelivery from "./assets/images/free-delivery.svg";
 
 // Menus
-import menu1 from "./assets/01.jpg";
-import menu2 from "./assets/02.jpg";
-import menu3 from "./assets/03.jpg";
-import menu4 from "./assets/04.jpg";
-import menu5 from "./assets/05.jpg";
-import menu6 from "./assets/06.jpg";
-import menu7 from "./assets/07.jpg";
-import menu8 from "./assets/08.jpg";
+import menu1 from "./assets/images/01.jpg";
+import menu2 from "./assets/images/02.jpg";
+import menu3 from "./assets/images/03.jpg";
+import menu4 from "./assets/images/04.jpg";
+import menu5 from "./assets/images/05.jpg";
+import menu6 from "./assets/images/06.jpg";
+import menu7 from "./assets/images/07.jpg";
+import menu8 from "./assets/images/08.jpg";
 
 // Gallery
-import gallery1 from "./assets/gallery-1.jpg";
-import gallery2 from "./assets/gallery-2.jpg";
-import gallery3 from "./assets/gallery-3.jpg";
-import gallery4 from "./assets/gallery-4.jpg";
-import gallery5 from "./assets/gallery-5.jpg";
+import gallery1 from "./assets/images/gallery-1.jpg";
+import gallery2 from "./assets/images/gallery-2.jpg";
+import gallery3 from "./assets/images/gallery-3.jpg";
+import gallery4 from "./assets/images/gallery-4.jpg";
+import gallery5 from "./assets/images/gallery-5.jpg";
 
 // Offers
-import offer1 from "./assets/offer-1.jpg";
-import offer2 from "./assets/offer-2.jpg";
+import offer1 from "./assets/images/offer-1.jpg";
+import offer2 from "./assets/images/offer-2.jpg";
 
 // Testimonials
-import testimonial1 from "./assets/testimonial-1.jpg";
-import testimonial2 from "./assets/testimonial-2.jpg";
-import testimonial3 from "./assets/testimonial-3.jpg";
-import testimonial4 from "./assets/testimonial-4.jpg";
+import testimonial1 from "./assets/images/testimonial-1.jpg";
+import testimonial2 from "./assets/images/testimonial-2.jpg";
+import testimonial3 from "./assets/images/testimonial-3.jpg";
+import testimonial4 from "./assets/images/testimonial-4.jpg";
 
 export const links = [
   {
