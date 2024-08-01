@@ -12,7 +12,7 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          <h2 className="section__title" data-title="About Us">
+          <h2 className="section__title title-left" data-title="About Us">
             Discover Coffero: Where Coffee Meets Community
           </h2>
           <p className="about__description">
