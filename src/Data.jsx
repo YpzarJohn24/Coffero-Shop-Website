@@ -100,7 +100,7 @@ export const menu = [
     title: "Espresso",
     description:
       "A classic espresso shot with rich, bold flavors and a velvety crema.",
-    price: "$3.00",
+    price: "3.00",
   },
   {
     id: 2,
@@ -108,7 +108,7 @@ export const menu = [
     title: "Cappuccino",
     description:
       "A perfect blend of espresso, steamed milk, and frothy foam for a creamy delight.",
-    price: "$4.00",
+    price: "4.00",
   },
   {
     id: 3,
@@ -116,7 +116,7 @@ export const menu = [
     title: "Latte",
     description:
       "Smooth and creamy, our latte combines espresso with steamed milk and a touch of foam.",
-    price: "$4.50",
+    price: "4.50",
   },
   {
     id: 4,
@@ -124,7 +124,7 @@ export const menu = [
     title: "Americano",
     description:
       "A strong and bold coffee made by diluting espresso with hot water.",
-    price: "$3.50",
+    price: "3.50",
   },
   {
     id: 5,
@@ -132,7 +132,7 @@ export const menu = [
     title: "Mocha",
     description:
       "A delicious mix of espresso, steamed milk, and rich chocolate syrup.",
-    price: "$5.00",
+    price: "5.00",
   },
   {
     id: 6,
@@ -140,7 +140,7 @@ export const menu = [
     title: "Flat White",
     description:
       "A balanced blend of espresso and velvety steamed milk with a thin layer of microfoam.",
-    price: "$4.25",
+    price: "4.25",
   },
   {
     id: 7,
@@ -148,7 +148,7 @@ export const menu = [
     title: "Macchiato",
     description:
       "A bold espresso with a dollop of steamed milk, creating a strong yet smooth flavor.",
-    price: "$3.75",
+    price: "3.75",
   },
   {
     id: 8,
@@ -156,7 +156,7 @@ export const menu = [
     title: "Cold Brew",
     description:
       "Smooth and refreshing, our cold brew is steeped for hours to extract the best flavors.",
-    price: "$4.00",
+    price: "4.00",
   },
 ];
 
