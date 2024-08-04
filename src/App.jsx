@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Features from "./components/Features/Features";
 import Menu from "./components/Menu/Menu";
 import Choose from "./components/Choose/Choose";
+import Stats from "./components/Stats/Stats";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <Menu />
       <Choose />
+      <Stats />
     </>
   );
 }
