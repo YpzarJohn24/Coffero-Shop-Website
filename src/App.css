@@ -71,6 +71,7 @@
 
 input,
 textarea,
+button,
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -138,6 +139,12 @@ img {
 .btn:hover {
   background-color: transparent;
   color: var(--first-color);
+}
+
+.btn--flex {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
 }
 
 .section {
