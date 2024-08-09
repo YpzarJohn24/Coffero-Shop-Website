@@ -10,6 +10,7 @@ import Stats from "./components/Stats/Stats";
 import Gallery from "./components/Gallery/Gallery";
 import Offer from "./components/Offer/Offer";
 import Team from "./components/Team/Team";
+import Reservation from "./components/Reservation/Reservation";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Gallery />
       <Offer />
       <Team />
+      <Reservation />
     </>
   );
 }
