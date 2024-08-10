@@ -1,0 +1,77 @@
+import React from "react";
+import { testimonials } from "../../Data";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper Styles
+import "swiper/css";
+import "swiper/css/pagination";
+// Import required modules
+import { Pagination } from "swiper/modules";
+
+import { FaStar } from "react-icons/fa";
+import { VscTriangleDown } from "react-icons/vsc";
+import "./testimonials.css";
+
+const Testimonials = () => {
+  return (
+    <section className="testimonials container section" id="testimonials">
+      <h2 className="section__title" data-title="Testimonials">
+        What Client Says
+      </h2>
+
+      <Swiper
+        spaceBetween={30}
+        pagination={{ clickable: true }}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
+        modules={[Pagination]}
+      >
+        {testimonials.map(({ img, name, service, description }, index) => {
+          return (
+            <SwiperSlide className="testimonial__item" key={index}>
+              <div className="testimonial__quote">
+                <p className="testimonial__description">{description}</p>
+                <VscTriangleDown className="testimonial__icon" />
+              </div>
+
+              <div className="testimonial__content">
+                <div className="testimonial__img-wrapper">
+                  <img
+                    src={img}
+                    alt="testimonial-person"
+                    className="testimonial__img"
+                  />
+                </div>
+
+                <div>
+                  <h3 className="testimonial__name">{name}</h3>
+                  <p className="testimonial__service">{service}</p>
+
+                  <div className="testimonial__rating">
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    </section>
+  );
+};
+
+export default Testimonials;
