@@ -12,6 +12,7 @@ import Offer from "./components/Offer/Offer";
 import Team from "./components/Team/Team";
 import Reservation from "./components/Reservation/Reservation";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Team />
       <Reservation />
       <Testimonials />
+      <Footer />
     </>
   );
 }
