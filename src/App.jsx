@@ -13,6 +13,7 @@ import Team from "./components/Team/Team";
 import Reservation from "./components/Reservation/Reservation";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
+import "./index.css";
 
 function App() {
   return (
